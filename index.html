@@ -262,7 +262,7 @@
               
                 
                 <a class="post-title-link" href="/2016/12/01/1/" itemprop="url">
-                  1
+                  我的第一页
                 </a>
               
             
@@ -314,7 +314,40 @@
       
         
           
-            
+            <p>非程序员，对Github的版本控制需求不大，但用Github pages做博客记录，还是不错的。</p>
+<p>记录一下本博客在Github上安装的过程。</p>
+<p>安装全部在WINdows下进行，基本有以下步骤</p>
+<ol>
+<li>注册Github；</li>
+<li>创建 用户名.Github.io 的库；</li>
+<li>安装Node.js；</li>
+<li>安装 Git for Windows；</li>
+<li>安装Hexo；</li>
+<li>更换Hexo主题</li>
+</ol>
+<h1 id="注册Github"><a href="#注册Github" class="headerlink" title="注册Github"></a>注册Github</h1><p>注册后，需通过注册邮箱验证；<br>注册免费的公共库即可</p>
+<h1 id="创建库"><a href="#创建库" class="headerlink" title="创建库"></a>创建库</h1><p>创建 用户名.Github.io的库，这样才可以 <a href="https://用户名.Github.io的方式访问站点；" target="_blank" rel="external">https://用户名.Github.io的方式访问站点；</a></p>
+<h1 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h1><p>从<a href="https://nodejs.org/en/download/" target="_blank" rel="external">这里</a>下载相应版本；</p>
+<p>默认安装即可</p>
+<p>安装完成后可通过CMD进行验证</p>
+<p>验证命令：</p>
+<p><code>node -v</code></p>
+<p><code>npm -v</code></p>
+<h1 id="安装-Git-for-Windows"><a href="#安装-Git-for-Windows" class="headerlink" title="安装 Git for Windows"></a>安装 Git for Windows</h1><p>从<a href="https://git-scm.com/download/win" target="_blank" rel="external">这里</a> 下载安装相应版本</p>
+<p>安装时，需加入系统环境变量</p>
+<h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><p>在本地电脑硬盘建立工作目录，如D:/hexo，打开该文件夹，右键菜单选择“Git Bach Here”</p>
+<p><img src="/img/2016-12-01 15_50_50.jpg" alt=""></p>
+<p>在打开的命令窗口运行以下命令</p>
+<p><code>npm install hexo-cli -g</code></p>
+<p><code>npm install hexo --save</code></p>
+<p><code>hexo -v    // 验证版本</code></p>
+<p><code>hexo init    // 初始化</code></p>
+<p><code>npm install    // 安装</code></p>
+<h1 id="运行Hexo"><a href="#运行Hexo" class="headerlink" title="运行Hexo"></a>运行Hexo</h1><p>在Git窗口运行</p>
+<p><code>hexo g</code></p>
+<p><code>hexo s</code></p>
+<p>在浏览器地址栏输入　<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a> </p>
+
           
         
       
@@ -516,6 +549,13 @@
 
           
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
